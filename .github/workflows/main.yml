@@ -46,11 +46,11 @@ jobs:
         with: 
           server_address: smtp.gmail.com
           server_port: 587
-          username: raja1100@gmail.com
+          username: rajadixit1100@gmail.com
           password: npxe xvia vttw ehwk
           subject: "CI Build Success -${{ github.repository}}"
           body: |
             The build for ${{ github.repository }} on branch ${{ github.ref_name}} succeeded.
             commit: ${{ github.sha }}
           to: dixitraja27@gmail.com
-          from: raja1100@gmail.com
+          from: rajadixit1100@gmail.com
